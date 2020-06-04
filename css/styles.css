@@ -1,71 +1,106 @@
 /* Typography */
 
 html {
-	font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 @media (min-width: 576px) {
-	html {
-		font-size: 14px;
-	}
+  html {
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 768px) {
-	html {
-		font-size: 16px;
-	}
+  html {
+    font-size: 16px;
+  }
 }
 
 @media (min-width: 992px) {
-	html {
-		font-size: 18px;
-	}
+  html {
+    font-size: 18px;
+  }
 }
 
 @media (min-width: 1200px) {
-	html {
-		font-size: 20px;
-	}
+  html {
+    font-size: 20px;
+  }
 }
 
 .icons-social i {
-	font-size: 3em;
+  font-size: 3em;
 }
 
 /* Custom Styles */
 
 main {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-	justify-content: center;
-	padding: 0 30px;
-	text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  padding: 0 30px;
+  text-align: center;
 }
 
 main > .intro {
-	font-family: 'Reem Kufi', sans-serif;
-	font-size: 3.75em;
-	font-weight: 600;
+  font-family: "Reem Kufi", sans-serif;
+  font-size: 3.75em;
+  font-weight: 600;
 }
 
 main > .tagline {
-	font-size: 1.5rem;
-	margin: 1.5rem 0;
-	font-weight: 100;
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+  font-weight: 100;
 }
 
 .icons-social i {
-	padding: 10px;
+  padding: 10px;
 }
 
 .devto {
-	margin-bottom: -0.20rem;
+  margin-bottom: -0.2rem;
 }
 
 .devto svg {
-	margin-bottom: -0.20rem;
-	margin-left: 0.675rem;;
-	width: 2.65rem;
-	height: 2.65rem;
+  margin-bottom: -0.2rem;
+  margin-left: 0.675rem;
+  width: 2.65rem;
+  height: 2.65rem;
+}
+
+h2 {
+  font-size: 1.1em;
+
+  font-family: "Reem Kufi", sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  width: 50%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 1);
+  color: #303f9f;
+  margin-top: 40px;
+}
+ul {
+  text-align: left;
+  width: 50%;
+  margin: 0 auto;
+}
+ul li {
+  padding: 5px;
+  /* border-bottom: 0.2px solid white; */
+}
+/* ul li:nth-child(2n) {
+  background-color: rgba(255, 255, 255, 0.623);
+} */
+ul li a {
+  font-size: 0.8em;
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+ul li:hover {
+  border-left: 10px solid rgba(255, 255, 255, 1);
 }
