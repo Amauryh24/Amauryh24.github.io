@@ -46,6 +46,7 @@ main > .intro {
   font-family: "Reem Kufi", sans-serif;
   font-size: 3.75em;
   font-weight: 600;
+  padding-top: 100px;
 }
 
 main > .tagline {
@@ -84,22 +85,30 @@ h2 {
 ul {
   text-align: left;
   width: 50%;
-  margin: 0 auto;
+  margin: 24px auto;
 }
 ul li {
   padding: 5px;
-  /* border-bottom: 0.2px solid white; */
 }
-/* ul li:nth-child(2n) {
-  background-color: rgba(255, 255, 255, 0.623);
-} */
+
 ul li a {
   font-size: 0.8em;
   color: white;
   text-decoration: none;
   display: block;
 }
-ul li:hover {
-  font-size: 1.1em;
+ul li a:hover {
   font-weight: bold;
+}
+
+h3 {
+  text-align: left;
+  text-indent: 40px;
+  width: 50%;
+  margin: auto;
+  font-size: 0.9em;
+  font-family: "Reem Kufi", sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
