@@ -85,7 +85,7 @@ h2 {
 ul {
   text-align: left;
   width: 50%;
-  margin: 24px auto;
+  margin: 0 auto 20px;
 }
 ul li {
   padding: 5px;
@@ -103,7 +103,7 @@ ul li a:hover {
 
 h3 {
   text-align: left;
-  text-indent: 40px;
+  text-indent: 20px;
   width: 50%;
   margin: auto;
   font-size: 0.9em;
